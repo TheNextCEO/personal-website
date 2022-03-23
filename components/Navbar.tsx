@@ -1,6 +1,5 @@
-import { Box, Center, Flex, Link, Text, useMediaQuery } from "@chakra-ui/react";
+import { Box, Center, Flex, Link, useMediaQuery } from "@chakra-ui/react";
 import {
-  BorderBottomIcon,
   GitHubLogoIcon,
   InstagramLogoIcon,
   LinkedInLogoIcon,
@@ -23,7 +22,7 @@ const Navbar = () => {
         </Box>
         <Box>Data Engineer</Box>
       </Box>
-      <Center p={{ md: 4 }} gap={7} fontSize="sm">
+      <Center p={{ md: 4 }} gap={7}>
         <Link>About</Link>
         <Link>Projects</Link>
         <Link>Experience</Link>

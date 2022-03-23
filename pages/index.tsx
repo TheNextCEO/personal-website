@@ -10,7 +10,9 @@ const Home: NextPage = () => {
     <ContainerBlock
       title="Benji Charles - Developer, Engineer, Creator"
       description="Building a website with Next.js and ChakraUI."
-    ></ContainerBlock>
+    >
+      <Box h="60vh"></Box>
+    </ContainerBlock>
   );
 };
 

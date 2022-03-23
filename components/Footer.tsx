@@ -15,7 +15,7 @@ const Footer = () => {
       mx={{ base: 0, md: 20 }}
       display={{ md: "flex" }}
     >
-      <Center fontWeight="extrabold">
+      <Center fontWeight="extrabold" fontSize="xs">
         Benji Charles. All Rights Reserved.
       </Center>
       <Center>

@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       title="Benji Charles - Developer, Engineer, Creator"
       description="Building a website with Next.js and ChakraUI."
     >
-      <Box h="60vh"></Box>
+      <Box h={{ base: "75vh", md: "85vh" }}></Box>
     </ContainerBlock>
   );
 };
